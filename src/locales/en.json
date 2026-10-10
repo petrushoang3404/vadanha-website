@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "Vadanha | Web Design & Development Studio",
+    "description": "Vadanha designs and builds fast, accessible websites and online stores for growing businesses. Fixed-scope quotes, one team, full ownership at launch."
+  },
+  "common": {
+    "skip": "Skip to content",
+    "startProject": "Start a project",
+    "requestProposal": "Request a proposal"
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "whyUs": "Why us",
+    "process": "Process",
+    "faq": "FAQ"
+  },
+  "header": {
+    "home": "Vadanha, back to top",
+    "primary": "Primary",
+    "mobile": "Mobile",
+    "openMenu": "Open menu",
+    "siteNav": "Site navigation",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Web design & development studio",
+    "title": "Websites that <em>win</em> you customers.",
+    "body": "We design and build fast, accessible websites for growing businesses. You get one team, a fixed price and a site that makes it easy for visitors to contact you or buy.",
+    "seeWork": "See sample work",
+    "caption": "Illustrative concept designs, not client work"
+  },
+  "trust": {
+    "heading": "What you can hold us to on every project",
+    "items": [
+      { "title": "Fixed-scope quotes", "body": "You approve one price before any work starts." },
+      { "title": "Reply in one business day", "body": "Every inquiry gets a real answer from a person." },
+      { "title": "Accessible by default", "body": "We build to WCAG 2.2 AA and check it manually." },
+      { "title": "You own everything", "body": "Code, design files and accounts are handed over at launch." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Design and build, under one roof.",
+    "intro": "Pick one service or the whole project. Either way you work with the same team and get a single, fixed quote.",
+    "help": "Not sure what you need? Tell us about it",
+    "includes": "{{service}} includes",
+    "items": [
+      {
+        "title": "Website design",
+        "body": "Page structure, messaging hierarchy and a visual identity for the web, designed around what your visitors need to decide.",
+        "tags": ["UX strategy", "UI design", "Design system"]
+      },
+      {
+        "title": "Web development",
+        "body": "Fast, accessible React and TypeScript builds with clean, documented code your own team can maintain.",
+        "tags": ["React", "TypeScript", "CMS integration"]
+      },
+      {
+        "title": "Responsive design",
+        "body": "Layouts built and checked on real phones, tablets and desktops, so the mobile experience is never an afterthought.",
+        "tags": ["Mobile-first", "WCAG 2.2 AA", "Cross-browser QA"]
+      },
+      {
+        "title": "E-commerce",
+        "body": "Storefronts with clear product pages, a short checkout and the analytics to see what converts.",
+        "tags": ["Shopify", "Custom storefronts", "Payments"]
+      },
+      {
+        "title": "Redesign & migration",
+        "body": "Replace an outdated site without losing search traffic: content audit, redirect map and a staged launch.",
+        "tags": ["Content audit", "SEO-safe redirects", "Replatforming"]
+      },
+      {
+        "title": "Care plans",
+        "body": "Monthly support after launch: updates, backups, uptime monitoring and a fixed number of change requests.",
+        "tags": ["Updates", "Monitoring", "Priority fixes"]
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Selected concepts",
+    "title": "What we build, in practice.",
+    "intro": "Six concept projects showing how we approach different kinds of businesses. The brands are fictional; real case studies will replace them as projects launch.",
+    "filter": "Filter projects by category",
+    "mockupLabel": "Illustrative homepage design for {{name}}, a concept {{category}} project",
+    "categories": {
+      "all": "All",
+      "ecommerce": "E-commerce",
+      "corporate": "Corporate",
+      "redesign": "Redesign",
+      "saas": "SaaS"
+    },
+    "projects": {
+      "slow-hours": {
+        "headline": "Coffee, on your schedule.",
+        "cta": "Shop all",
+        "summary": "A subscription-first storefront for a small-batch roaster, built around a three-tap reorder flow.",
+        "scope": ["Design", "Storefront build", "Subscriptions"]
+      },
+      "harlow-reed": {
+        "headline": "Counsel that reads the fine print.",
+        "cta": "Book a consultation",
+        "summary": "A credibility-led site for a boutique law firm, with practice-area pages written for the client’s search intent.",
+        "scope": ["Brand for web", "Design", "Development"]
+      },
+      "atlas-freight": {
+        "headline": "Freight that arrives as promised.",
+        "cta": "Get a quote",
+        "summary": "A redesign of a dated B2B site into a quote-request funnel, migrated with a full redirect map.",
+        "scope": ["Content audit", "Redesign", "SEO migration"]
+      },
+      "linden-dental": {
+        "headline": "Dentistry without the dread.",
+        "cta": "Book an appointment",
+        "summary": "A calm, accessible clinic site where booking an appointment is always one click away.",
+        "scope": ["Design", "Development", "Booking integration"]
+      },
+      "tallyo": {
+        "headline": "Close the books in a day.",
+        "cta": "Start free",
+        "summary": "A marketing site and product tour for a B2B finance app, with a pricing page designed to qualify leads.",
+        "scope": ["Messaging", "Design system", "Development"]
+      },
+      "fieldhouse": {
+        "headline": "Gear for the long way round.",
+        "cta": "Shop all",
+        "summary": "A catalog of 1,200 products reorganized around how customers shop, with filters that actually narrow things down.",
+        "scope": ["Information architecture", "Design", "Headless build"]
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Why Vadanha",
+    "title": "A website is a business decision. We treat it like one.",
+    "items": [
+      {
+        "title": "One small team, start to finish",
+        "body": "The people who scope your project design and build it. Nothing is lost in a handoff, and you always know who to call.",
+        "benefit": "Fewer revisions, faster decisions"
+      },
+      {
+        "title": "Fixed scope, fixed price",
+        "body": "We write down what is included before we start. If the scope changes, you see the cost first and decide.",
+        "benefit": "No surprise invoices"
+      },
+      {
+        "title": "Built to be found and to be fast",
+        "body": "Semantic markup, optimized images and lean code, so pages load quickly and search engines can read them.",
+        "benefit": "Better search visibility and conversion"
+      },
+      {
+        "title": "No lock-in",
+        "body": "Standard tools, plain documentation and full handover. You can keep working with us or take it in-house.",
+        "benefit": "You stay in control"
+      }
+    ],
+    "principlesTitle": "How we work",
+    "principles": [
+      "Show work early. You see progress every week, not at the end.",
+      "Keep the stack boring. Proven tools beat clever ones.",
+      "Write for visitors first, search engines second."
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "Five steps, no surprises.",
+    "intro": "Every project follows the same path, with a dated schedule and a checkpoint at the end of each stage. Typical timings for a marketing site are shown below.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "time": "1 week",
+        "body": "We learn your customers, goals and constraints, audit what exists, and agree on scope, sitemap and success measures.",
+        "output": "Scope, sitemap, fixed quote"
+      },
+      {
+        "title": "Design",
+        "time": "2–3 weeks",
+        "body": "Wireframes first, then full-fidelity designs for key pages on mobile and desktop. Two feedback rounds are built in.",
+        "output": "Clickable designs"
+      },
+      {
+        "title": "Development",
+        "time": "2–4 weeks",
+        "body": "We build on a staging site you can open at any time, wire up content, forms and integrations, and tune performance.",
+        "output": "Working staging site"
+      },
+      {
+        "title": "Testing",
+        "time": "1 week",
+        "body": "Real-device checks, accessibility review, browser coverage, analytics and redirect verification before anything goes live.",
+        "output": "QA report, fixes"
+      },
+      {
+        "title": "Launch",
+        "time": "Launch day + 30 days",
+        "body": "A scheduled go-live, a monitored first week, training for your team and 30 days of included post-launch fixes.",
+        "output": "Live site, handover"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered plainly.",
+    "intro": "Still wondering about something? <a>Ask us directly</a>.",
+    "items": [
+      {
+        "q": "How much does a website cost?",
+        "a": "Every project is quoted at a fixed price after a short discovery call. Cost depends mainly on the number of unique page designs, custom functionality (such as a store or booking) and how much content we need to migrate. You get a written quote with exactly what is included before you commit."
+      },
+      {
+        "q": "How long does a project take?",
+        "a": "A typical marketing site takes 5 to 8 weeks from kickoff to launch. Stores and sites with custom functionality usually take 8 to 14. The biggest factor is how quickly feedback and content reach us, and we will give you a dated schedule in the proposal."
+      },
+      {
+        "q": "How many revisions are included?",
+        "a": "Two structured feedback rounds in design and one in development are included. Rounds are consolidated so everyone gives feedback at once, which keeps projects on schedule. Work beyond that scope is quoted before we start it."
+      },
+      {
+        "q": "What do you need from us?",
+        "a": "One decision-maker, timely feedback, and your content: copy, photos and product data. If you do not have copy yet, we can write it or work with your writer as an add-on."
+      },
+      {
+        "q": "Who owns the website when it is finished?",
+        "a": "You do. At launch you receive the source code, design files and admin access. We never hold your domain or hosting hostage."
+      },
+      {
+        "q": "Do you offer support after launch?",
+        "a": "Every project includes 30 days of fixes. After that you can choose a monthly care plan covering updates, backups, monitoring and a set number of changes, or you can manage the site yourself."
+      },
+      {
+        "q": "How do we communicate during the project?",
+        "a": "You get a shared project channel, a weekly progress update with a link to the latest build, and a call at each milestone. We work in your time zone where we can."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Start a project",
+    "title": "Tell us what you’re building.",
+    "intro": "Share a few details and we’ll reply within one business day with questions, or a plan for a short call. No sales script, no obligation.",
+    "name": "Your name",
+    "company": "Company or current website",
+    "type": "What do you need?",
+    "types": ["New website", "Redesign", "E-commerce store", "Ongoing support", "Something else"],
+    "message": "Tell us about the project",
+    "placeholder": "Goals, timeline, and anything we should know.",
+    "hint": "This opens your email app with your message ready to send.",
+    "sent": "Your email app should have opened with your message. If it did not, write to us at the address on the left.",
+    "subject": "Project inquiry from {{name}}",
+    "mailCompany": "Company / website"
+  },
+  "footer": {
+    "tagline": "A remote-first web design and development studio. We build fast, accessible websites for businesses that want to grow.",
+    "explore": "Explore",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "© {{year}} Vadanha. All rights reserved.",
+    "concepts": "Portfolio projects shown are illustrative concepts."
+  }
+}

@@ -1,0 +1,148 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/newsreader/opsz.css";
+@import "@fontsource-variable/newsreader/opsz-italic.css";
+
+/*
+ * Vadanha design tokens
+ * Palette: bone paper, forest ink, one lime signal. Lime is only ever a fill
+ * behind ink text (or text on forest), never text on bone.
+ */
+:root {
+  /* Surfaces */
+  --background: #f4f1ea;
+  --surface: #fbf9f4;
+  --sand: #e9e4d6;
+  /* Text */
+  --foreground: #101814;
+  --muted-foreground: #556059;
+  /* Brand + accent */
+  --brand: #0f3a2b;
+  --brand-foreground: #f4f1ea;
+  --signal: #cdf26b;
+  --signal-foreground: #101814;
+  /* Lines + focus */
+  --border: #d8d2c3;
+  --input: #bdb7a6;
+  --ring: #0f3a2b;
+  /* Semantic */
+  --success: #1f7a4d;
+  --warning: #9a6a12;
+  --destructive: #b3261e;
+
+  /* shadcn mappings */
+  --card: var(--surface);
+  --card-foreground: var(--foreground);
+  --popover: var(--surface);
+  --popover-foreground: var(--foreground);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: var(--sand);
+  --secondary-foreground: var(--foreground);
+  --muted: var(--sand);
+  --accent: var(--sand);
+  --accent-foreground: var(--foreground);
+  --radius: 0.75rem;
+}
+
+/* Sections on forest/ink backgrounds flip the focus ring to the signal color */
+.on-brand {
+  --ring: var(--signal);
+  --border: color-mix(in oklab, var(--brand-foreground) 18%, transparent);
+  --muted-foreground: color-mix(in oklab, var(--brand-foreground) 72%, var(--brand));
+  background: var(--brand);
+  color: var(--brand-foreground);
+}
+
+@theme inline {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-sans);
+  --font-display: "Newsreader Variable", ui-serif, Georgia, serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-sand: var(--sand);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-destructive: var(--destructive);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.4);
+
+  /* Type scale (display serif for headings, Geist for everything else) */
+  --text-display: clamp(3rem, 7.4vw + 0.5rem, 7rem);
+  --text-display--line-height: 1.06;
+  --text-display--letter-spacing: -0.03em;
+  --text-h2: clamp(2.25rem, 4vw + 0.5rem, 4.25rem);
+  --text-h2--line-height: 1.1;
+  --text-h2--letter-spacing: -0.025em;
+  --text-h3: clamp(1.75rem, 1.6vw + 1.1rem, 2.5rem);
+  --text-h3--line-height: 1.15;
+  --text-lead: 1.1875rem;
+  --text-lead--line-height: 1.55;
+}
+
+/* Layout helpers: one content width, one section rhythm */
+@utility container-site {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1240px;
+  padding-inline: 1.25rem;
+  @variant sm { padding-inline: 2rem; }
+  @variant lg { padding-inline: 2.5rem; }
+}
+@utility section-y {
+  padding-block: 5rem;
+  @variant md { padding-block: 7rem; }
+  @variant lg { padding-block: 9rem; }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { @apply font-sans; scroll-padding-top: 5.5rem; }
+  body { @apply bg-background text-foreground antialiased; }
+  h1, h2, h3 { @apply font-display font-normal; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; }
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+  }
+}
+
+/* Scroll reveal: opt-in via <Reveal>, disabled for reduced motion */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal[data-visible="true"] { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}

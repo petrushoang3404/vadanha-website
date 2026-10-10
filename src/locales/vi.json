@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "title": "Vadanha | Studio thiết kế & phát triển website",
+    "description": "Vadanha thiết kế và xây dựng website, cửa hàng trực tuyến nhanh, dễ truy cập cho doanh nghiệp đang phát triển. Báo giá trọn gói, một đội ngũ duy nhất, bạn sở hữu toàn bộ sản phẩm khi bàn giao."
+  },
+  "common": {
+    "skip": "Chuyển đến nội dung chính",
+    "startProject": "Bắt đầu dự án",
+    "requestProposal": "Nhận đề xuất"
+  },
+  "nav": {
+    "services": "Dịch vụ",
+    "work": "Dự án",
+    "whyUs": "Vì sao chọn chúng tôi",
+    "process": "Quy trình",
+    "faq": "Hỏi đáp"
+  },
+  "header": {
+    "home": "Vadanha, về đầu trang",
+    "primary": "Điều hướng chính",
+    "mobile": "Điều hướng di động",
+    "openMenu": "Mở menu",
+    "siteNav": "Điều hướng trang web",
+    "language": "Ngôn ngữ"
+  },
+  "hero": {
+    "eyebrow": "Studio thiết kế & phát triển website",
+    "title": "Website <em>mang về</em> khách hàng cho bạn.",
+    "body": "Chúng tôi thiết kế và xây dựng website nhanh, dễ truy cập cho doanh nghiệp đang phát triển. Bạn chỉ làm việc với một đội ngũ, một mức giá cố định và nhận về một website giúp khách dễ dàng liên hệ hoặc mua hàng.",
+    "seeWork": "Xem dự án mẫu",
+    "caption": "Thiết kế minh họa ý tưởng, không phải dự án của khách hàng"
+  },
+  "trust": {
+    "heading": "Những cam kết cho mọi dự án",
+    "items": [
+      { "title": "Báo giá trọn gói", "body": "Bạn duyệt một mức giá duy nhất trước khi chúng tôi bắt đầu." },
+      { "title": "Phản hồi trong một ngày làm việc", "body": "Mọi yêu cầu đều được một người thật trả lời." },
+      { "title": "Dễ truy cập ngay từ đầu", "body": "Chúng tôi xây dựng theo chuẩn WCAG 2.2 AA và kiểm tra thủ công." },
+      { "title": "Bạn sở hữu tất cả", "body": "Mã nguồn, tệp thiết kế và tài khoản được bàn giao khi ra mắt." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Dịch vụ",
+    "title": "Thiết kế và xây dựng, trọn gói tại một nơi.",
+    "intro": "Chọn một dịch vụ hoặc cả dự án. Dù chọn cách nào, bạn vẫn làm việc với cùng một đội ngũ và nhận một báo giá cố định.",
+    "help": "Chưa rõ mình cần gì? Hãy chia sẻ với chúng tôi",
+    "includes": "{{service}} bao gồm",
+    "items": [
+      {
+        "title": "Thiết kế website",
+        "body": "Cấu trúc trang, thứ tự thông điệp và bộ nhận diện trực quan cho web, được thiết kế xoay quanh điều khách truy cập cần để đưa ra quyết định.",
+        "tags": ["Chiến lược UX", "Thiết kế UI", "Hệ thống thiết kế"]
+      },
+      {
+        "title": "Phát triển website",
+        "body": "Website xây dựng bằng React và TypeScript, nhanh và dễ truy cập, với mã nguồn gọn gàng, có tài liệu để đội ngũ của bạn tự bảo trì.",
+        "tags": ["React", "TypeScript", "Tích hợp CMS"]
+      },
+      {
+        "title": "Thiết kế responsive",
+        "body": "Bố cục được xây dựng và kiểm tra trên điện thoại, máy tính bảng và máy tính thật, để trải nghiệm trên di động không bao giờ bị xem nhẹ.",
+        "tags": ["Ưu tiên di động", "WCAG 2.2 AA", "Kiểm thử đa trình duyệt"]
+      },
+      {
+        "title": "Thương mại điện tử",
+        "body": "Cửa hàng trực tuyến với trang sản phẩm rõ ràng, thanh toán ngắn gọn và số liệu phân tích để biết điều gì mang lại đơn hàng.",
+        "tags": ["Shopify", "Cửa hàng tùy biến", "Thanh toán"]
+      },
+      {
+        "title": "Thiết kế lại & chuyển đổi",
+        "body": "Thay thế website cũ mà không mất lượng truy cập từ tìm kiếm: kiểm kê nội dung, bản đồ chuyển hướng và ra mắt theo từng giai đoạn.",
+        "tags": ["Kiểm kê nội dung", "Chuyển hướng an toàn cho SEO", "Đổi nền tảng"]
+      },
+      {
+        "title": "Gói bảo trì",
+        "body": "Hỗ trợ hằng tháng sau khi ra mắt: cập nhật, sao lưu, giám sát hoạt động và số lượt chỉnh sửa cố định.",
+        "tags": ["Cập nhật", "Giám sát", "Ưu tiên sửa lỗi"]
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Dự án ý tưởng",
+    "title": "Chúng tôi xây dựng như thế nào.",
+    "intro": "Sáu dự án ý tưởng cho thấy cách chúng tôi tiếp cận từng loại hình doanh nghiệp. Các thương hiệu là hư cấu; các dự án thực tế sẽ thay thế khi được ra mắt.",
+    "filter": "Lọc dự án theo danh mục",
+    "mockupLabel": "Thiết kế trang chủ minh họa cho {{name}}, một dự án ý tưởng thuộc nhóm {{category}}",
+    "categories": {
+      "all": "Tất cả",
+      "ecommerce": "Thương mại điện tử",
+      "corporate": "Doanh nghiệp",
+      "redesign": "Thiết kế lại",
+      "saas": "SaaS"
+    },
+    "projects": {
+      "slow-hours": {
+        "headline": "Cà phê, theo nhịp của bạn.",
+        "cta": "Xem tất cả",
+        "summary": "Cửa hàng trực tuyến ưu tiên đặt hàng định kỳ cho thương hiệu rang xay nhỏ, với quy trình đặt lại chỉ trong ba lần chạm.",
+        "scope": ["Thiết kế", "Xây dựng cửa hàng", "Đặt hàng định kỳ"]
+      },
+      "harlow-reed": {
+        "headline": "Tư vấn đọc kỹ từng điều khoản.",
+        "cta": "Đặt lịch tư vấn",
+        "summary": "Website tạo uy tín cho một văn phòng luật nhỏ, với các trang lĩnh vực hành nghề được viết theo nhu cầu tìm kiếm của khách hàng.",
+        "scope": ["Nhận diện cho web", "Thiết kế", "Phát triển"]
+      },
+      "atlas-freight": {
+        "headline": "Hàng đến đúng như đã hẹn.",
+        "cta": "Nhận báo giá",
+        "summary": "Thiết kế lại website B2B cũ thành phễu yêu cầu báo giá, chuyển đổi cùng bản đồ chuyển hướng đầy đủ.",
+        "scope": ["Kiểm kê nội dung", "Thiết kế lại", "Chuyển đổi SEO"]
+      },
+      "linden-dental": {
+        "headline": "Nha khoa không còn nỗi sợ.",
+        "cta": "Đặt lịch hẹn",
+        "summary": "Website phòng khám nhẹ nhàng, dễ truy cập, nơi việc đặt lịch hẹn luôn chỉ cách một lần bấm.",
+        "scope": ["Thiết kế", "Phát triển", "Tích hợp đặt lịch"]
+      },
+      "tallyo": {
+        "headline": "Chốt sổ chỉ trong một ngày.",
+        "cta": "Dùng thử miễn phí",
+        "summary": "Website giới thiệu và tham quan sản phẩm cho ứng dụng tài chính B2B, với trang bảng giá giúp sàng lọc khách hàng tiềm năng.",
+        "scope": ["Thông điệp", "Hệ thống thiết kế", "Phát triển"]
+      },
+      "fieldhouse": {
+        "headline": "Đồ nghề cho hành trình dài.",
+        "cta": "Xem tất cả",
+        "summary": "Danh mục 1.200 sản phẩm được sắp xếp lại theo cách khách hàng mua sắm, với bộ lọc thực sự thu hẹp kết quả.",
+        "scope": ["Kiến trúc thông tin", "Thiết kế", "Xây dựng headless"]
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Vì sao chọn Vadanha",
+    "title": "Website là một quyết định kinh doanh. Chúng tôi làm việc với tinh thần đó.",
+    "items": [
+      {
+        "title": "Một đội ngũ nhỏ, làm từ đầu đến cuối",
+        "body": "Những người xác định phạm vi dự án cũng là người thiết kế và xây dựng nó. Không có gì thất lạc qua các khâu bàn giao, và bạn luôn biết nên liên hệ ai.",
+        "benefit": "Ít chỉnh sửa hơn, quyết định nhanh hơn"
+      },
+      {
+        "title": "Phạm vi cố định, giá cố định",
+        "body": "Chúng tôi ghi rõ những gì bao gồm trước khi bắt đầu. Nếu phạm vi thay đổi, bạn sẽ biết chi phí trước và tự quyết định.",
+        "benefit": "Không có hóa đơn phát sinh bất ngờ"
+      },
+      {
+        "title": "Dễ được tìm thấy và tải nhanh",
+        "body": "Mã HTML ngữ nghĩa, hình ảnh được tối ưu và mã nguồn tinh gọn, để trang tải nhanh và công cụ tìm kiếm đọc được nội dung.",
+        "benefit": "Hiển thị tìm kiếm và chuyển đổi tốt hơn"
+      },
+      {
+        "title": "Không bị ràng buộc",
+        "body": "Công cụ phổ biến, tài liệu rõ ràng và bàn giao đầy đủ. Bạn có thể tiếp tục hợp tác với chúng tôi hoặc tự vận hành nội bộ.",
+        "benefit": "Bạn luôn chủ động"
+      }
+    ],
+    "principlesTitle": "Cách chúng tôi làm việc",
+    "principles": [
+      "Cho xem sản phẩm sớm. Bạn thấy tiến độ mỗi tuần, không phải đợi đến cuối.",
+      "Giữ công nghệ đơn giản. Công cụ đã được kiểm chứng hơn là giải pháp phô trương.",
+      "Viết cho khách truy cập trước, công cụ tìm kiếm sau."
+    ]
+  },
+  "process": {
+    "eyebrow": "Quy trình",
+    "title": "Năm bước, không có bất ngờ.",
+    "intro": "Mọi dự án đều đi theo cùng một lộ trình, với lịch trình cụ thể và một điểm kiểm tra sau mỗi giai đoạn. Thời gian dự kiến cho website giới thiệu doanh nghiệp được nêu dưới đây.",
+    "steps": [
+      {
+        "title": "Khám phá",
+        "time": "1 tuần",
+        "body": "Chúng tôi tìm hiểu khách hàng, mục tiêu và giới hạn của bạn, đánh giá hiện trạng và thống nhất phạm vi, sơ đồ trang và thước đo thành công.",
+        "output": "Phạm vi, sơ đồ trang, báo giá cố định"
+      },
+      {
+        "title": "Thiết kế",
+        "time": "2–3 tuần",
+        "body": "Bắt đầu bằng wireframe, sau đó là thiết kế hoàn chỉnh cho các trang chính trên di động và máy tính. Đã bao gồm hai vòng góp ý.",
+        "output": "Bản thiết kế tương tác"
+      },
+      {
+        "title": "Phát triển",
+        "time": "2–4 tuần",
+        "body": "Chúng tôi xây dựng trên môi trường thử nghiệm mà bạn có thể mở bất cứ lúc nào, kết nối nội dung, biểu mẫu, tích hợp và tối ưu hiệu năng.",
+        "output": "Website thử nghiệm hoạt động"
+      },
+      {
+        "title": "Kiểm thử",
+        "time": "1 tuần",
+        "body": "Kiểm tra trên thiết bị thật, rà soát khả năng truy cập, độ phủ trình duyệt, phân tích dữ liệu và chuyển hướng trước khi website chính thức hoạt động.",
+        "output": "Báo cáo QA, sửa lỗi"
+      },
+      {
+        "title": "Ra mắt",
+        "time": "Ngày ra mắt + 30 ngày",
+        "body": "Ra mắt theo lịch hẹn, theo dõi sát tuần đầu tiên, hướng dẫn đội ngũ của bạn và 30 ngày sửa lỗi sau ra mắt đã được bao gồm.",
+        "output": "Website hoạt động, bàn giao"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Hỏi đáp",
+    "title": "Giải đáp thẳng thắn.",
+    "intro": "Vẫn còn băn khoăn? <a>Hỏi chúng tôi trực tiếp</a>.",
+    "items": [
+      {
+        "q": "Chi phí làm website là bao nhiêu?",
+        "a": "Mỗi dự án được báo giá cố định sau một buổi trao đổi ngắn. Chi phí phụ thuộc chủ yếu vào số mẫu thiết kế trang riêng biệt, các chức năng tùy biến (như cửa hàng hoặc đặt lịch) và lượng nội dung cần chuyển đổi. Bạn nhận báo giá bằng văn bản nêu rõ những gì được bao gồm trước khi quyết định."
+      },
+      {
+        "q": "Một dự án mất bao lâu?",
+        "a": "Một website giới thiệu doanh nghiệp thông thường mất 5 đến 8 tuần từ lúc bắt đầu đến khi ra mắt. Cửa hàng trực tuyến và website có chức năng tùy biến thường mất 8 đến 14 tuần. Yếu tố ảnh hưởng nhiều nhất là tốc độ bạn gửi góp ý và nội dung cho chúng tôi, và đề xuất sẽ có lịch trình theo ngày cụ thể."
+      },
+      {
+        "q": "Được chỉnh sửa bao nhiêu lần?",
+        "a": "Đã bao gồm hai vòng góp ý có cấu trúc ở giai đoạn thiết kế và một vòng ở giai đoạn phát triển. Mỗi vòng được tổng hợp để mọi người góp ý cùng lúc, giúp dự án đúng tiến độ. Công việc ngoài phạm vi này sẽ được báo giá trước khi thực hiện."
+      },
+      {
+        "q": "Chúng tôi cần chuẩn bị gì?",
+        "a": "Một người quyết định, phản hồi kịp thời và nội dung của bạn: văn bản, hình ảnh và dữ liệu sản phẩm. Nếu chưa có nội dung, chúng tôi có thể viết hoặc làm việc cùng biên tập viên của bạn như một dịch vụ bổ sung."
+      },
+      {
+        "q": "Ai sở hữu website sau khi hoàn thành?",
+        "a": "Là bạn. Khi ra mắt, bạn nhận mã nguồn, tệp thiết kế và quyền quản trị. Chúng tôi không bao giờ giữ tên miền hay hosting của bạn làm điều kiện ràng buộc."
+      },
+      {
+        "q": "Có hỗ trợ sau khi ra mắt không?",
+        "a": "Mọi dự án đều bao gồm 30 ngày sửa lỗi. Sau đó, bạn có thể chọn gói bảo trì hằng tháng gồm cập nhật, sao lưu, giám sát và số lượt chỉnh sửa nhất định, hoặc tự quản lý website."
+      },
+      {
+        "q": "Chúng ta trao đổi với nhau như thế nào trong dự án?",
+        "a": "Bạn có một kênh chung của dự án, bản cập nhật tiến độ hằng tuần kèm liên kết đến phiên bản mới nhất và một cuộc gọi ở mỗi mốc quan trọng. Chúng tôi làm việc theo múi giờ của bạn khi có thể."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Bắt đầu dự án",
+    "title": "Hãy cho chúng tôi biết bạn đang xây dựng điều gì.",
+    "intro": "Chia sẻ vài thông tin và chúng tôi sẽ phản hồi trong vòng một ngày làm việc bằng câu hỏi hoặc đề xuất một cuộc gọi ngắn. Không kịch bản bán hàng, không ràng buộc.",
+    "name": "Tên của bạn",
+    "company": "Công ty hoặc website hiện tại",
+    "type": "Bạn cần gì?",
+    "types": ["Website mới", "Thiết kế lại", "Cửa hàng trực tuyến", "Hỗ trợ lâu dài", "Nhu cầu khác"],
+    "message": "Mô tả dự án của bạn",
+    "placeholder": "Mục tiêu, thời gian mong muốn và những điều chúng tôi nên biết.",
+    "hint": "Thao tác này mở ứng dụng email với nội dung đã soạn sẵn để bạn gửi.",
+    "sent": "Ứng dụng email của bạn sẽ mở ra với nội dung đã soạn. Nếu không, hãy gửi thư tới địa chỉ bên trái.",
+    "subject": "Yêu cầu dự án từ {{name}}",
+    "mailCompany": "Công ty / website"
+  },
+  "footer": {
+    "tagline": "Studio thiết kế và phát triển website làm việc từ xa. Chúng tôi xây dựng website nhanh, dễ truy cập cho những doanh nghiệp muốn phát triển.",
+    "explore": "Khám phá",
+    "services": "Dịch vụ",
+    "contact": "Liên hệ",
+    "rights": "© {{year}} Vadanha. Bảo lưu mọi quyền.",
+    "concepts": "Các dự án trong phần giới thiệu là ý tưởng minh họa."
+  }
+}
