@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Start a project",
+  "title": "Tell us what you’re building.",
+  "intro": "Share a few details and we’ll reply within one business day with questions, or a plan for a short call. No sales script, no obligation.",
+  "name": "Your name",
+  "company": "Company or current website",
+  "type": "What do you need?",
+  "types": [
+    "New website",
+    "Redesign",
+    "E-commerce store",
+    "Ongoing support",
+    "Something else"
+  ],
+  "message": "Tell us about the project",
+  "placeholder": "Goals, timeline, and anything we should know.",
+  "hint": "This opens your email app with your message ready to send.",
+  "sent": "Your email app should have opened with your message. If it did not, write to us at the address on the left.",
+  "subject": "Project inquiry from {{name}}",
+  "mailCompany": "Company / website"
+}

@@ -1,0 +1,63 @@
+{
+  "eyebrow": "Dịch vụ",
+  "title": "Thiết kế và xây dựng, trọn gói tại một nơi.",
+  "intro": "Chọn một dịch vụ hoặc cả dự án. Dù chọn cách nào, bạn vẫn làm việc với cùng một đội ngũ và nhận một báo giá cố định.",
+  "help": "Chưa rõ mình cần gì? Hãy chia sẻ với chúng tôi",
+  "includes": "{{service}} bao gồm",
+  "items": [
+    {
+      "title": "Thiết kế website",
+      "body": "Cấu trúc trang, thứ tự thông điệp và bộ nhận diện trực quan cho web, được thiết kế xoay quanh điều khách truy cập cần để đưa ra quyết định.",
+      "tags": [
+        "Chiến lược UX",
+        "Thiết kế UI",
+        "Hệ thống thiết kế"
+      ]
+    },
+    {
+      "title": "Phát triển website",
+      "body": "Website xây dựng bằng React và TypeScript, nhanh và dễ truy cập, với mã nguồn gọn gàng, có tài liệu để đội ngũ của bạn tự bảo trì.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tích hợp CMS"
+      ]
+    },
+    {
+      "title": "Thiết kế responsive",
+      "body": "Bố cục được xây dựng và kiểm tra trên điện thoại, máy tính bảng và máy tính thật, để trải nghiệm trên di động không bao giờ bị xem nhẹ.",
+      "tags": [
+        "Ưu tiên di động",
+        "WCAG 2.2 AA",
+        "Kiểm thử đa trình duyệt"
+      ]
+    },
+    {
+      "title": "Thương mại điện tử",
+      "body": "Cửa hàng trực tuyến với trang sản phẩm rõ ràng, thanh toán ngắn gọn và số liệu phân tích để biết điều gì mang lại đơn hàng.",
+      "tags": [
+        "Shopify",
+        "Cửa hàng tùy biến",
+        "Thanh toán"
+      ]
+    },
+    {
+      "title": "Thiết kế lại & chuyển đổi",
+      "body": "Thay thế website cũ mà không mất lượng truy cập từ tìm kiếm: kiểm kê nội dung, bản đồ chuyển hướng và ra mắt theo từng giai đoạn.",
+      "tags": [
+        "Kiểm kê nội dung",
+        "Chuyển hướng an toàn cho SEO",
+        "Đổi nền tảng"
+      ]
+    },
+    {
+      "title": "Gói bảo trì",
+      "body": "Hỗ trợ hằng tháng sau khi ra mắt: cập nhật, sao lưu, giám sát hoạt động và số lượt chỉnh sửa cố định.",
+      "tags": [
+        "Cập nhật",
+        "Giám sát",
+        "Ưu tiên sửa lỗi"
+      ]
+    }
+  ]
+}

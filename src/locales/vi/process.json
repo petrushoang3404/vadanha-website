@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Quy trình",
+  "title": "Năm bước, không có bất ngờ.",
+  "intro": "Mọi dự án đều đi theo cùng một lộ trình, với lịch trình cụ thể và một điểm kiểm tra sau mỗi giai đoạn. Thời gian dự kiến cho website giới thiệu doanh nghiệp được nêu dưới đây.",
+  "steps": [
+    {
+      "title": "Khám phá",
+      "time": "1 tuần",
+      "body": "Chúng tôi tìm hiểu khách hàng, mục tiêu và giới hạn của bạn, đánh giá hiện trạng và thống nhất phạm vi, sơ đồ trang và thước đo thành công.",
+      "output": "Phạm vi, sơ đồ trang, báo giá cố định"
+    },
+    {
+      "title": "Thiết kế",
+      "time": "2–3 tuần",
+      "body": "Bắt đầu bằng wireframe, sau đó là thiết kế hoàn chỉnh cho các trang chính trên di động và máy tính. Đã bao gồm hai vòng góp ý.",
+      "output": "Bản thiết kế tương tác"
+    },
+    {
+      "title": "Phát triển",
+      "time": "2–4 tuần",
+      "body": "Chúng tôi xây dựng trên môi trường thử nghiệm mà bạn có thể mở bất cứ lúc nào, kết nối nội dung, biểu mẫu, tích hợp và tối ưu hiệu năng.",
+      "output": "Website thử nghiệm hoạt động"
+    },
+    {
+      "title": "Kiểm thử",
+      "time": "1 tuần",
+      "body": "Kiểm tra trên thiết bị thật, rà soát khả năng truy cập, độ phủ trình duyệt, phân tích dữ liệu và chuyển hướng trước khi website chính thức hoạt động.",
+      "output": "Báo cáo QA, sửa lỗi"
+    },
+    {
+      "title": "Ra mắt",
+      "time": "Ngày ra mắt + 30 ngày",
+      "body": "Ra mắt theo lịch hẹn, theo dõi sát tuần đầu tiên, hướng dẫn đội ngũ của bạn và 30 ngày sửa lỗi sau ra mắt đã được bao gồm.",
+      "output": "Website hoạt động, bàn giao"
+    }
+  ]
+}

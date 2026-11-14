@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Vì sao chọn Vadanha",
+  "title": "Website là một quyết định kinh doanh. Chúng tôi làm việc với tinh thần đó.",
+  "items": [
+    {
+      "title": "Một đội ngũ nhỏ, làm từ đầu đến cuối",
+      "body": "Những người xác định phạm vi dự án cũng là người thiết kế và xây dựng nó. Không có gì thất lạc qua các khâu bàn giao, và bạn luôn biết nên liên hệ ai.",
+      "benefit": "Ít chỉnh sửa hơn, quyết định nhanh hơn"
+    },
+    {
+      "title": "Phạm vi cố định, giá cố định",
+      "body": "Chúng tôi ghi rõ những gì bao gồm trước khi bắt đầu. Nếu phạm vi thay đổi, bạn sẽ biết chi phí trước và tự quyết định.",
+      "benefit": "Không có hóa đơn phát sinh bất ngờ"
+    },
+    {
+      "title": "Dễ được tìm thấy và tải nhanh",
+      "body": "Mã HTML ngữ nghĩa, hình ảnh được tối ưu và mã nguồn tinh gọn, để trang tải nhanh và công cụ tìm kiếm đọc được nội dung.",
+      "benefit": "Hiển thị tìm kiếm và chuyển đổi tốt hơn"
+    },
+    {
+      "title": "Không bị ràng buộc",
+      "body": "Công cụ phổ biến, tài liệu rõ ràng và bàn giao đầy đủ. Bạn có thể tiếp tục hợp tác với chúng tôi hoặc tự vận hành nội bộ.",
+      "benefit": "Bạn luôn chủ động"
+    }
+  ],
+  "principlesTitle": "Cách chúng tôi làm việc",
+  "principles": [
+    "Cho xem sản phẩm sớm. Bạn thấy tiến độ mỗi tuần, không phải đợi đến cuối.",
+    "Giữ công nghệ đơn giản. Công cụ đã được kiểm chứng hơn là giải pháp phô trương.",
+    "Viết cho khách truy cập trước, công cụ tìm kiếm sau."
+  ]
+}

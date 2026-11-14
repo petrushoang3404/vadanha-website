@@ -1,0 +1,651 @@
+# Sveltia CMS configuration. Dashboard: /admin/
+# Docs: https://sveltiacms.app/en/docs
+backend:
+  name: github
+  repo: petrushoang3404/vadanha-website
+  branch: main
+  # TODO: URL của Sveltia CMS Authenticator (Cloudflare Worker). Xem README, mục "Quản lý nội dung".
+  base_url: https://sveltia-cms-auth.hoangminhhien3404.workers.dev
+
+# Ảnh tải lên được lưu vào public/uploads và phục vụ tại /uploads/...
+media_folder: public/uploads
+public_folder: /uploads
+
+# Ngôn ngữ giao diện CMS
+locale: vi
+
+i18n:
+  structure: multiple_folders
+  locales: [vi, en]
+  default_locale: vi
+
+collections:
+  - name: content
+    label: "Nội dung trang"
+    label_singular: "Nội dung trang"
+    i18n: true
+    files:
+      - name: hero
+        label: "Trang chủ: Hero"
+        file: src/locales/{{locale}}/hero.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+            hint: "Đặt chữ cần nhấn mạnh (in nghiêng) giữa <em> và </em>, ví dụ: Website <em>mang về</em> khách hàng."
+          - name: body
+            label: "Nội dung"
+            widget: text
+            i18n: true
+          - name: seeWork
+            label: "Nút xem dự án"
+            widget: string
+            i18n: true
+          - name: caption
+            label: "Chú thích dưới hình"
+            widget: string
+            i18n: true
+      - name: trust
+        label: "Cam kết"
+        file: src/locales/{{locale}}/trust.json
+        format: json
+        i18n: true
+        fields:
+          - name: heading
+            label: "heading"
+            widget: string
+            i18n: true
+          - name: items
+            label: "Danh sách"
+            widget: list
+            label_singular: "Danh sách"
+            summary: "{{fields.title}}"
+            i18n: true
+            fields:
+              - name: title
+                label: "Tiêu đề"
+                widget: string
+                i18n: true
+              - name: body
+                label: "Nội dung"
+                widget: string
+                i18n: true
+      - name: services
+        label: "Dịch vụ"
+        file: src/locales/{{locale}}/services.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+          - name: intro
+            label: "Đoạn giới thiệu"
+            widget: text
+            i18n: true
+          - name: help
+            label: "Dòng gợi ý"
+            widget: string
+            i18n: true
+          - name: includes
+            label: "Tiêu đề danh sách bao gồm"
+            widget: string
+            i18n: true
+          - name: items
+            label: "Danh sách"
+            widget: list
+            label_singular: "Danh sách"
+            summary: "{{fields.title}}"
+            i18n: true
+            fields:
+              - name: title
+                label: "Tiêu đề"
+                widget: string
+                i18n: true
+              - name: body
+                label: "Nội dung"
+                widget: text
+                i18n: true
+              - name: tags
+                label: "Thẻ"
+                widget: list
+                collapsed: false
+                i18n: true
+      - name: work
+        label: "Dự án"
+        file: src/locales/{{locale}}/work.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+          - name: intro
+            label: "Đoạn giới thiệu"
+            widget: text
+            i18n: true
+          - name: filter
+            label: "Nhãn bộ lọc (đọc bởi trình đọc màn hình)"
+            widget: string
+            i18n: true
+          - name: mockupLabel
+            label: "Mô tả ảnh (alt text). Giữ nguyên {{name}} và {{category}}"
+            widget: text
+            i18n: true
+          - name: categories
+            label: "Tên danh mục"
+            widget: object
+            i18n: true
+            collapsed: false
+            fields:
+              - name: all
+                label: "Tất cả"
+                widget: string
+                i18n: true
+              - name: ecommerce
+                label: "Thương mại điện tử"
+                widget: string
+                i18n: true
+              - name: corporate
+                label: "Doanh nghiệp"
+                widget: string
+                i18n: true
+              - name: redesign
+                label: "Thiết kế lại"
+                widget: string
+                i18n: true
+              - name: saas
+                label: "SaaS"
+                widget: string
+                i18n: true
+          - name: projects
+            label: "Nội dung từng dự án"
+            widget: object
+            i18n: true
+            collapsed: true
+            fields:
+              - name: slow-hours
+                label: "slow-hours"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+              - name: harlow-reed
+                label: "harlow-reed"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+              - name: atlas-freight
+                label: "atlas-freight"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+              - name: linden-dental
+                label: "linden-dental"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+              - name: tallyo
+                label: "tallyo"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+              - name: fieldhouse
+                label: "fieldhouse"
+                widget: object
+                i18n: true
+                collapsed: false
+                fields:
+                  - name: headline
+                    label: "Tiêu đề trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: cta
+                    label: "Nút trong mockup"
+                    widget: string
+                    i18n: true
+                  - name: summary
+                    label: "Mô tả dự án"
+                    widget: text
+                    i18n: true
+                  - name: scope
+                    label: "Phạm vi công việc"
+                    widget: list
+                    collapsed: false
+                    i18n: true
+      - name: why
+        label: "Vì sao chọn chúng tôi"
+        file: src/locales/{{locale}}/why.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: text
+            i18n: true
+          - name: items
+            label: "Danh sách"
+            widget: list
+            label_singular: "Danh sách"
+            summary: "{{fields.title}}"
+            i18n: true
+            fields:
+              - name: title
+                label: "Tiêu đề"
+                widget: string
+                i18n: true
+              - name: body
+                label: "Nội dung"
+                widget: text
+                i18n: true
+              - name: benefit
+                label: "Lợi ích"
+                widget: string
+                i18n: true
+          - name: principlesTitle
+            label: "principlesTitle"
+            widget: string
+            i18n: true
+          - name: principles
+            label: "Nguyên tắc"
+            widget: list
+            collapsed: false
+            i18n: true
+      - name: process
+        label: "Quy trình"
+        file: src/locales/{{locale}}/process.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+          - name: intro
+            label: "Đoạn giới thiệu"
+            widget: text
+            i18n: true
+          - name: steps
+            label: "Các bước"
+            widget: list
+            label_singular: "Các bước"
+            summary: "{{fields.title}}"
+            i18n: true
+            fields:
+              - name: title
+                label: "Tiêu đề"
+                widget: string
+                i18n: true
+              - name: time
+                label: "Thời gian"
+                widget: string
+                i18n: true
+              - name: body
+                label: "Nội dung"
+                widget: text
+                i18n: true
+              - name: output
+                label: "Kết quả bàn giao"
+                widget: string
+                i18n: true
+      - name: faq
+        label: "Hỏi đáp"
+        file: src/locales/{{locale}}/faq.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+          - name: intro
+            label: "Đoạn giới thiệu"
+            widget: string
+            i18n: true
+            hint: "Giữ nguyên cặp thẻ <a> ... </a> (liên kết tới biểu mẫu liên hệ)."
+          - name: items
+            label: "Danh sách"
+            widget: list
+            label_singular: "Danh sách"
+            summary: "{{fields.q}}"
+            i18n: true
+            fields:
+              - name: q
+                label: "Câu hỏi"
+                widget: string
+                i18n: true
+              - name: a
+                label: "Trả lời"
+                widget: text
+                i18n: true
+      - name: contact
+        label: "Liên hệ"
+        file: src/locales/{{locale}}/contact.json
+        format: json
+        i18n: true
+        fields:
+          - name: eyebrow
+            label: "Nhãn nhỏ phía trên tiêu đề"
+            widget: string
+            i18n: true
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+          - name: intro
+            label: "Đoạn giới thiệu"
+            widget: text
+            i18n: true
+          - name: name
+            label: "Nhãn ô \"Tên\""
+            widget: string
+            i18n: true
+          - name: company
+            label: "Nhãn ô \"Công ty\""
+            widget: string
+            i18n: true
+          - name: type
+            label: "Nhãn ô \"Bạn cần gì?\""
+            widget: string
+            i18n: true
+          - name: types
+            label: "Các loại nhu cầu"
+            widget: list
+            collapsed: false
+            i18n: true
+          - name: message
+            label: "Nhãn ô \"Mô tả dự án\""
+            widget: string
+            i18n: true
+          - name: placeholder
+            label: "Gợi ý trong ô mô tả"
+            widget: string
+            i18n: true
+          - name: hint
+            label: "Ghi chú dưới biểu mẫu"
+            widget: string
+            i18n: true
+          - name: sent
+            label: "Thông báo sau khi gửi"
+            widget: text
+            i18n: true
+          - name: subject
+            label: "subject"
+            widget: string
+            i18n: true
+          - name: mailCompany
+            label: "mailCompany"
+            widget: string
+            i18n: true
+      - name: footer
+        label: "Chân trang"
+        file: src/locales/{{locale}}/footer.json
+        format: json
+        i18n: true
+        fields:
+          - name: tagline
+            label: "Giới thiệu ngắn"
+            widget: text
+            i18n: true
+          - name: explore
+            label: "Tiêu đề cột \"Khám phá\""
+            widget: string
+            i18n: true
+          - name: services
+            label: "Tiêu đề cột \"Dịch vụ\""
+            widget: string
+            i18n: true
+          - name: contact
+            label: "Tiêu đề cột \"Liên hệ\""
+            widget: string
+            i18n: true
+          - name: rights
+            label: "Dòng bản quyền. Giữ nguyên {{year}}"
+            widget: string
+            i18n: true
+          - name: concepts
+            label: "Ghi chú dự án ý tưởng"
+            widget: string
+            i18n: true
+
+  - name: projects_data
+    label: "Dự án (ảnh & màu sắc)"
+    files:
+      - name: projects
+        label: "Danh sách dự án"
+        file: src/content/projects.json
+        format: json
+        fields:
+          - name: projects
+            label: "Dự án"
+            label_singular: "Dự án"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: slug, label: "Mã dự án (không đổi)", widget: string, hint: "Dùng để nối với nội dung chữ ở mục Dự án. Không nên sửa." }
+              - { name: name, label: "Tên thương hiệu", widget: string }
+              - { name: category, label: "Danh mục", widget: select, options: [{label: "Thương mại điện tử", value: ecommerce}, {label: "Doanh nghiệp", value: corporate}, {label: "Thiết kế lại", value: redesign}, {label: "SaaS", value: saas}] }
+              - { name: image, label: "Ảnh dự án", widget: image, required: false, hint: "Tùy chọn. Nếu để trống, trang dùng hình minh họa vẽ sẵn. Nên dùng ảnh tỷ lệ 4:3." }
+              - { name: layout, label: "Kiểu bố cục mockup", widget: select, options: [split, products, centered, dashboard, editorial] }
+              - name: theme
+                label: "Màu sắc"
+                widget: object
+                fields:
+                  - { name: bg, label: "Nền", widget: color }
+                  - { name: fg, label: "Chữ", widget: color }
+                  - { name: accent, label: "Màu nhấn", widget: color }
+                  - { name: accentFg, label: "Chữ trên màu nhấn", widget: color }
+                  - { name: tile, label: "Màu ô phụ", widget: color }
+                  - { name: serif, label: "Dùng font có chân (serif)", widget: boolean, required: false }
+
+  - name: advanced
+    label: "Nâng cao"
+    i18n: true
+    files:
+      - name: meta
+        label: "SEO (tiêu đề & mô tả)"
+        file: src/locales/{{locale}}/meta.json
+        format: json
+        i18n: true
+        fields:
+          - name: title
+            label: "Tiêu đề"
+            widget: string
+            i18n: true
+            hint: "Hiển thị trên tab trình duyệt và Google."
+          - name: description
+            label: "Mô tả (SEO)"
+            widget: text
+            i18n: true
+      - name: nav
+        label: "Tên các mục menu"
+        file: src/locales/{{locale}}/nav.json
+        format: json
+        i18n: true
+        fields:
+          - name: services
+            label: "Tiêu đề cột \"Dịch vụ\""
+            widget: string
+            i18n: true
+          - name: work
+            label: "work"
+            widget: string
+            i18n: true
+          - name: whyUs
+            label: "whyUs"
+            widget: string
+            i18n: true
+          - name: process
+            label: "process"
+            widget: string
+            i18n: true
+          - name: faq
+            label: "faq"
+            widget: string
+            i18n: true
+      - name: header
+        label: "Menu (nhãn trợ năng)"
+        file: src/locales/{{locale}}/header.json
+        format: json
+        i18n: true
+        fields:
+          - name: home
+            label: "home"
+            widget: string
+            i18n: true
+          - name: primary
+            label: "primary"
+            widget: string
+            i18n: true
+          - name: mobile
+            label: "mobile"
+            widget: string
+            i18n: true
+          - name: openMenu
+            label: "openMenu"
+            widget: string
+            i18n: true
+          - name: siteNav
+            label: "siteNav"
+            widget: string
+            i18n: true
+          - name: language
+            label: "language"
+            widget: string
+            i18n: true
+      - name: common
+        label: "Nút dùng chung"
+        file: src/locales/{{locale}}/common.json
+        format: json
+        i18n: true
+        fields:
+          - name: skip
+            label: "skip"
+            widget: string
+            i18n: true
+          - name: startProject
+            label: "startProject"
+            widget: string
+            i18n: true
+          - name: requestProposal
+            label: "requestProposal"
+            widget: string
+            i18n: true

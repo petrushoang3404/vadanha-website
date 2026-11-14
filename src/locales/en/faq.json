@@ -1,0 +1,35 @@
+{
+  "eyebrow": "FAQ",
+  "title": "Questions, answered plainly.",
+  "intro": "Still wondering about something? <a>Ask us directly</a>.",
+  "items": [
+    {
+      "q": "How much does a website cost?",
+      "a": "Every project is quoted at a fixed price after a short discovery call. Cost depends mainly on the number of unique page designs, custom functionality (such as a store or booking) and how much content we need to migrate. You get a written quote with exactly what is included before you commit."
+    },
+    {
+      "q": "How long does a project take?",
+      "a": "A typical marketing site takes 5 to 8 weeks from kickoff to launch. Stores and sites with custom functionality usually take 8 to 14. The biggest factor is how quickly feedback and content reach us, and we will give you a dated schedule in the proposal."
+    },
+    {
+      "q": "How many revisions are included?",
+      "a": "Two structured feedback rounds in design and one in development are included. Rounds are consolidated so everyone gives feedback at once, which keeps projects on schedule. Work beyond that scope is quoted before we start it."
+    },
+    {
+      "q": "What do you need from us?",
+      "a": "One decision-maker, timely feedback, and your content: copy, photos and product data. If you do not have copy yet, we can write it or work with your writer as an add-on."
+    },
+    {
+      "q": "Who owns the website when it is finished?",
+      "a": "You do. At launch you receive the source code, design files and admin access. We never hold your domain or hosting hostage."
+    },
+    {
+      "q": "Do you offer support after launch?",
+      "a": "Every project includes 30 days of fixes. After that you can choose a monthly care plan covering updates, backups, monitoring and a set number of changes, or you can manage the site yourself."
+    },
+    {
+      "q": "How do we communicate during the project?",
+      "a": "You get a shared project channel, a weekly progress update with a link to the latest build, and a call at each milestone. We work in your time zone where we can."
+    }
+  ]
+}

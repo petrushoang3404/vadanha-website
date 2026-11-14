@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Bắt đầu dự án",
+  "title": "Hãy cho chúng tôi biết bạn đang xây dựng điều gì.",
+  "intro": "Chia sẻ vài thông tin và chúng tôi sẽ phản hồi trong vòng một ngày làm việc bằng câu hỏi hoặc đề xuất một cuộc gọi ngắn. Không kịch bản bán hàng, không ràng buộc.",
+  "name": "Tên của bạn",
+  "company": "Công ty hoặc website hiện tại",
+  "type": "Bạn cần gì?",
+  "types": [
+    "Website mới",
+    "Thiết kế lại",
+    "Cửa hàng trực tuyến",
+    "Hỗ trợ lâu dài",
+    "Nhu cầu khác"
+  ],
+  "message": "Mô tả dự án của bạn",
+  "placeholder": "Mục tiêu, thời gian mong muốn và những điều chúng tôi nên biết.",
+  "hint": "Thao tác này mở ứng dụng email với nội dung đã soạn sẵn để bạn gửi.",
+  "sent": "Ứng dụng email của bạn sẽ mở ra với nội dung đã soạn. Nếu không, hãy gửi thư tới địa chỉ bên trái.",
+  "subject": "Yêu cầu dự án từ {{name}}",
+  "mailCompany": "Công ty / website"
+}

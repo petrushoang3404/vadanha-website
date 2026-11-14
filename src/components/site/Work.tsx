@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { categories, projects, type Category } from '@/data/content'
-import { cn } from '@/lib/utils'
+import { assetUrl, cn } from '@/lib/utils'
 import { Reveal } from './Reveal'
 import { SectionHeading } from './SectionHeading'
 import { SiteMockup } from './SiteMockup'
@@ -44,7 +44,16 @@ export function Work() {
               <Reveal>
                 <article className="group">
                   <div className="overflow-hidden rounded-2xl bg-foreground/5 p-4 sm:p-6">
-                    <SiteMockup project={p} className="aspect-[4/3] w-full transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-[1.015] motion-reduce:transition-none" />
+                    {p.image ? (
+                      <img
+                        src={assetUrl(p.image)}
+                        alt={t('work.mockupLabel', { name: p.name, category: t(`work.categories.${p.category}`) })}
+                        loading="lazy"
+                        className="aspect-[4/3] w-full rounded-lg object-cover"
+                      />
+                    ) : (
+                      <SiteMockup project={p} className="aspect-[4/3] w-full transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-[1.015] motion-reduce:transition-none" />
+                    )}
                   </div>
                   <div className="mt-5 flex items-baseline justify-between gap-4">
                     <h3 className="text-h3">{p.name}</h3>

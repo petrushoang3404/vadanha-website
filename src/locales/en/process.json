@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Process",
+  "title": "Five steps, no surprises.",
+  "intro": "Every project follows the same path, with a dated schedule and a checkpoint at the end of each stage. Typical timings for a marketing site are shown below.",
+  "steps": [
+    {
+      "title": "Discovery",
+      "time": "1 week",
+      "body": "We learn your customers, goals and constraints, audit what exists, and agree on scope, sitemap and success measures.",
+      "output": "Scope, sitemap, fixed quote"
+    },
+    {
+      "title": "Design",
+      "time": "2–3 weeks",
+      "body": "Wireframes first, then full-fidelity designs for key pages on mobile and desktop. Two feedback rounds are built in.",
+      "output": "Clickable designs"
+    },
+    {
+      "title": "Development",
+      "time": "2–4 weeks",
+      "body": "We build on a staging site you can open at any time, wire up content, forms and integrations, and tune performance.",
+      "output": "Working staging site"
+    },
+    {
+      "title": "Testing",
+      "time": "1 week",
+      "body": "Real-device checks, accessibility review, browser coverage, analytics and redirect verification before anything goes live.",
+      "output": "QA report, fixes"
+    },
+    {
+      "title": "Launch",
+      "time": "Launch day + 30 days",
+      "body": "A scheduled go-live, a monitored first week, training for your team and 30 days of included post-launch fixes.",
+      "output": "Live site, handover"
+    }
+  ]
+}

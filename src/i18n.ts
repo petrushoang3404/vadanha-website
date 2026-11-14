@@ -1,7 +1,19 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import en from '@/locales/en.json'
-import vi from '@/locales/vi.json'
+
+// Each section lives in src/locales/<lang>/<section>.json; the file name becomes the top-level key
+// (hero.json -> t('hero.*')). This keeps one small file per section for the CMS.
+const modules = import.meta.glob<Record<string, unknown>>('./locales/*/*.json', { eager: true, import: 'default' })
+
+function buildResources() {
+  const resources: Record<string, { translation: Record<string, unknown> }> = {}
+  for (const [path, content] of Object.entries(modules)) {
+    const [, lang, file] = path.match(/\.\/locales\/([^/]+)\/([^/]+)\.json$/) ?? []
+    if (!lang) continue
+    ;(resources[lang] ??= { translation: {} }).translation[file] = content
+  }
+  return resources
+}
 
 export const languages = ['vi', 'en'] as const
 export type Language = (typeof languages)[number]
@@ -19,7 +31,7 @@ function initialLanguage(): Language {
 }
 
 i18n.use(initReactI18next).init({
-  resources: { en: { translation: en }, vi: { translation: vi } },
+  resources: buildResources(),
   lng: initialLanguage(),
   fallbackLng: 'en',
   interpolation: { escapeValue: false },

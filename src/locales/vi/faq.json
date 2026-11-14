@@ -1,0 +1,35 @@
+{
+  "eyebrow": "Hỏi đáp",
+  "title": "Giải đáp thẳng thắn.",
+  "intro": "Vẫn còn băn khoăn? <a>Hỏi chúng tôi trực tiếp</a>.",
+  "items": [
+    {
+      "q": "Chi phí làm website là bao nhiêu?",
+      "a": "Mỗi dự án được báo giá cố định sau một buổi trao đổi ngắn. Chi phí phụ thuộc chủ yếu vào số mẫu thiết kế trang riêng biệt, các chức năng tùy biến (như cửa hàng hoặc đặt lịch) và lượng nội dung cần chuyển đổi. Bạn nhận báo giá bằng văn bản nêu rõ những gì được bao gồm trước khi quyết định."
+    },
+    {
+      "q": "Một dự án mất bao lâu?",
+      "a": "Một website giới thiệu doanh nghiệp thông thường mất 5 đến 8 tuần từ lúc bắt đầu đến khi ra mắt. Cửa hàng trực tuyến và website có chức năng tùy biến thường mất 8 đến 14 tuần. Yếu tố ảnh hưởng nhiều nhất là tốc độ bạn gửi góp ý và nội dung cho chúng tôi, và đề xuất sẽ có lịch trình theo ngày cụ thể."
+    },
+    {
+      "q": "Được chỉnh sửa bao nhiêu lần?",
+      "a": "Đã bao gồm hai vòng góp ý có cấu trúc ở giai đoạn thiết kế và một vòng ở giai đoạn phát triển. Mỗi vòng được tổng hợp để mọi người góp ý cùng lúc, giúp dự án đúng tiến độ. Công việc ngoài phạm vi này sẽ được báo giá trước khi thực hiện."
+    },
+    {
+      "q": "Chúng tôi cần chuẩn bị gì?",
+      "a": "Một người quyết định, phản hồi kịp thời và nội dung của bạn: văn bản, hình ảnh và dữ liệu sản phẩm. Nếu chưa có nội dung, chúng tôi có thể viết hoặc làm việc cùng biên tập viên của bạn như một dịch vụ bổ sung."
+    },
+    {
+      "q": "Ai sở hữu website sau khi hoàn thành?",
+      "a": "Là bạn. Khi ra mắt, bạn nhận mã nguồn, tệp thiết kế và quyền quản trị. Chúng tôi không bao giờ giữ tên miền hay hosting của bạn làm điều kiện ràng buộc."
+    },
+    {
+      "q": "Có hỗ trợ sau khi ra mắt không?",
+      "a": "Mọi dự án đều bao gồm 30 ngày sửa lỗi. Sau đó, bạn có thể chọn gói bảo trì hằng tháng gồm cập nhật, sao lưu, giám sát và số lượt chỉnh sửa nhất định, hoặc tự quản lý website."
+    },
+    {
+      "q": "Chúng ta trao đổi với nhau như thế nào trong dự án?",
+      "a": "Bạn có một kênh chung của dự án, bản cập nhật tiến độ hằng tuần kèm liên kết đến phiên bản mới nhất và một cuộc gọi ở mỗi mốc quan trọng. Chúng tôi làm việc theo múi giờ của bạn khi có thể."
+    }
+  ]
+}

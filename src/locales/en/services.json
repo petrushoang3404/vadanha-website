@@ -1,0 +1,63 @@
+{
+  "eyebrow": "Services",
+  "title": "Design and build, under one roof.",
+  "intro": "Pick one service or the whole project. Either way you work with the same team and get a single, fixed quote.",
+  "help": "Not sure what you need? Tell us about it",
+  "includes": "{{service}} includes",
+  "items": [
+    {
+      "title": "Website design",
+      "body": "Page structure, messaging hierarchy and a visual identity for the web, designed around what your visitors need to decide.",
+      "tags": [
+        "UX strategy",
+        "UI design",
+        "Design system"
+      ]
+    },
+    {
+      "title": "Web development",
+      "body": "Fast, accessible React and TypeScript builds with clean, documented code your own team can maintain.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "CMS integration"
+      ]
+    },
+    {
+      "title": "Responsive design",
+      "body": "Layouts built and checked on real phones, tablets and desktops, so the mobile experience is never an afterthought.",
+      "tags": [
+        "Mobile-first",
+        "WCAG 2.2 AA",
+        "Cross-browser QA"
+      ]
+    },
+    {
+      "title": "E-commerce",
+      "body": "Storefronts with clear product pages, a short checkout and the analytics to see what converts.",
+      "tags": [
+        "Shopify",
+        "Custom storefronts",
+        "Payments"
+      ]
+    },
+    {
+      "title": "Redesign & migration",
+      "body": "Replace an outdated site without losing search traffic: content audit, redirect map and a staged launch.",
+      "tags": [
+        "Content audit",
+        "SEO-safe redirects",
+        "Replatforming"
+      ]
+    },
+    {
+      "title": "Care plans",
+      "body": "Monthly support after launch: updates, backups, uptime monitoring and a fixed number of change requests.",
+      "tags": [
+        "Updates",
+        "Monitoring",
+        "Priority fixes"
+      ]
+    }
+  ]
+}

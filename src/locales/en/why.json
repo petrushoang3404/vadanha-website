@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Why Vadanha",
+  "title": "A website is a business decision. We treat it like one.",
+  "items": [
+    {
+      "title": "One small team, start to finish",
+      "body": "The people who scope your project design and build it. Nothing is lost in a handoff, and you always know who to call.",
+      "benefit": "Fewer revisions, faster decisions"
+    },
+    {
+      "title": "Fixed scope, fixed price",
+      "body": "We write down what is included before we start. If the scope changes, you see the cost first and decide.",
+      "benefit": "No surprise invoices"
+    },
+    {
+      "title": "Built to be found and to be fast",
+      "body": "Semantic markup, optimized images and lean code, so pages load quickly and search engines can read them.",
+      "benefit": "Better search visibility and conversion"
+    },
+    {
+      "title": "No lock-in",
+      "body": "Standard tools, plain documentation and full handover. You can keep working with us or take it in-house.",
+      "benefit": "You stay in control"
+    }
+  ],
+  "principlesTitle": "How we work",
+  "principles": [
+    "Show work early. You see progress every week, not at the end.",
+    "Keep the stack boring. Proven tools beat clever ones.",
+    "Write for visitors first, search engines second."
+  ]
+}
