@@ -13,8 +13,6 @@
   },
   "projects": {
     "slow-hours": {
-      "headline": "Coffee, on your schedule.",
-      "cta": "Shop all",
       "summary": "A subscription-first storefront for a small-batch roaster, built around a three-tap reorder flow.",
       "scope": [
         "Design",
@@ -23,8 +21,6 @@
       ]
     },
     "harlow-reed": {
-      "headline": "Counsel that reads the fine print.",
-      "cta": "Book a consultation",
       "summary": "A credibility-led site for a boutique law firm, with practice-area pages written for the client’s search intent.",
       "scope": [
         "Brand for web",
@@ -33,8 +29,6 @@
       ]
     },
     "atlas-freight": {
-      "headline": "Freight that arrives as promised.",
-      "cta": "Get a quote",
       "summary": "A redesign of a dated B2B site into a quote-request funnel, migrated with a full redirect map.",
       "scope": [
         "Content audit",
@@ -43,8 +37,6 @@
       ]
     },
     "linden-dental": {
-      "headline": "Dentistry without the dread.",
-      "cta": "Book an appointment",
       "summary": "A calm, accessible clinic site where booking an appointment is always one click away.",
       "scope": [
         "Design",
@@ -53,8 +45,6 @@
       ]
     },
     "tallyo": {
-      "headline": "Close the books in a day.",
-      "cta": "Start free",
       "summary": "A marketing site and product tour for a B2B finance app, with a pricing page designed to qualify leads.",
       "scope": [
         "Messaging",
@@ -63,8 +53,6 @@
       ]
     },
     "fieldhouse": {
-      "headline": "Gear for the long way round.",
-      "cta": "Shop all",
       "summary": "A catalog of 1,200 products reorganized around how customers shop, with filters that actually narrow things down.",
       "scope": [
         "Information architecture",

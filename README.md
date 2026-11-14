@@ -10,7 +10,7 @@ npm run build   # type-check and production build
 
 - Design tokens (colors, type scale, layout utilities): `src/index.css`
 - All copy, in Vietnamese (default) and English: `src/locales/vi.json`, `src/locales/en.json` (setup in `src/i18n.ts`)
-- Language-independent data (project themes, nav targets, contact email): `src/data/content.ts`
+- Language-independent data (nav targets, contact email): `src/data/content.ts`
 - Page sections: `src/components/site/`
 - Content is edited from the CMS at `/admin/` (see "Quản lý nội dung / Content management" below). Copy is split per section: `src/locales/<lang>/<section>.json` (file name = top-level i18n key). Project data: `src/content/projects.json`. Uploaded images: `public/uploads/`.
 
@@ -39,7 +39,7 @@ If the workflow fails with a permissions error, check **Settings → Actions →
 Dashboard: `https://petrushoang3404.github.io/vadanha-website/admin/` (local: `http://localhost:5173/admin/`). It is [Sveltia CMS](https://sveltiacms.app) configured in `public/admin/config.yml`: it edits the JSON files above and commits to `main`; the existing deploy workflow then publishes the change (about 1–2 minutes).
 
 - **Nội dung trang**: all copy, Vietnamese and English side by side (switch locale at the top right of the editor).
-- **Dự án (ảnh & màu sắc)**: project name, category, screenshot (optional; falls back to the drawn mockup) and colors.
+- **Dự án (ảnh)**: project name, category and screenshot (required, 4:3 ratio, e.g. 1600×1200). The same images appear in the Work section and the homepage showcase.
 - **Nâng cao**: SEO title/description, menu labels and accessibility text.
 - To undo a change, revert the commit on GitHub (every save is one commit).
 - Adding a brand-new project needs a developer: add a `work.projects.<slug>` block in `src/locales/*/work.json` and a matching entry in `projects.json`.

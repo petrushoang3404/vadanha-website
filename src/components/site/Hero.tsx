@@ -2,11 +2,11 @@ import { ArrowDownRightIcon, ArrowUpRightIcon } from 'lucide-react'
 import { Trans, useTranslation } from 'react-i18next'
 import { buttonVariants } from '@/components/ui/button'
 import { projects } from '@/data/content'
-import { SiteMockup } from './SiteMockup'
+import { assetUrl } from '@/lib/utils'
 
 const showcase = [projects[0], projects[1], projects[4]]
-// Different heights stagger the tops while every mockup bleeds off the panel's bottom edge
-const aspects = ['aspect-[4/3.2]', 'aspect-[4/4]', 'aspect-[4/2.7]']
+// Images are 4:3. Frames shorter than that crop the bottom, so the tops stagger and every screenshot bleeds off the panel's bottom edge
+const aspects = ['aspect-[4/2.7]', 'aspect-[4/2.9]', 'aspect-[4/2.4]']
 
 export function Hero() {
   const { t } = useTranslation()
@@ -38,11 +38,16 @@ export function Hero() {
           <p className="text-xs text-brand-foreground/70">{t('hero.caption')}</p>
           <div className="mx-auto mt-6 grid max-w-[1100px] grid-cols-1 items-end gap-6 md:mt-10 md:grid-cols-3 lg:gap-10">
             {showcase.map((p, i) => (
-              <SiteMockup
+              <div
                 key={p.slug}
-                project={p}
-                className={['w-full rounded-b-none', aspects[i], i > 0 && 'hidden md:block'].filter(Boolean).join(' ')}
-              />
+                className={['overflow-hidden rounded-t-xl shadow-[0_24px_60px_-28px_rgba(16,24,20,0.45)]', aspects[i], i > 0 && 'hidden md:block'].filter(Boolean).join(' ')}
+              >
+                <img
+                  src={assetUrl(p.image)}
+                  alt={t('work.mockupLabel', { name: p.name, category: t(`work.categories.${p.category}`) })}
+                  className="size-full object-cover object-top"
+                />
+              </div>
             ))}
           </div>
         </div>

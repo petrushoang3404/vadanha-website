@@ -187,14 +187,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -210,14 +202,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -233,14 +217,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -256,14 +232,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -279,14 +247,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -302,14 +262,6 @@ collections:
                 i18n: true
                 collapsed: false
                 fields:
-                  - name: headline
-                    label: "Tiêu đề trong mockup"
-                    widget: string
-                    i18n: true
-                  - name: cta
-                    label: "Nút trong mockup"
-                    widget: string
-                    i18n: true
                   - name: summary
                     label: "Mô tả dự án"
                     widget: text
@@ -527,7 +479,7 @@ collections:
             i18n: true
 
   - name: projects_data
-    label: "Dự án (ảnh & màu sắc)"
+    label: "Dự án (ảnh)"
     files:
       - name: projects
         label: "Danh sách dự án"
@@ -543,18 +495,7 @@ collections:
               - { name: slug, label: "Mã dự án (không đổi)", widget: string, hint: "Dùng để nối với nội dung chữ ở mục Dự án. Không nên sửa." }
               - { name: name, label: "Tên thương hiệu", widget: string }
               - { name: category, label: "Danh mục", widget: select, options: [{label: "Thương mại điện tử", value: ecommerce}, {label: "Doanh nghiệp", value: corporate}, {label: "Thiết kế lại", value: redesign}, {label: "SaaS", value: saas}] }
-              - { name: image, label: "Ảnh dự án", widget: image, required: false, hint: "Tùy chọn. Nếu để trống, trang dùng hình minh họa vẽ sẵn. Nên dùng ảnh tỷ lệ 4:3." }
-              - { name: layout, label: "Kiểu bố cục mockup", widget: select, options: [split, products, centered, dashboard, editorial] }
-              - name: theme
-                label: "Màu sắc"
-                widget: object
-                fields:
-                  - { name: bg, label: "Nền", widget: color }
-                  - { name: fg, label: "Chữ", widget: color }
-                  - { name: accent, label: "Màu nhấn", widget: color }
-                  - { name: accentFg, label: "Chữ trên màu nhấn", widget: color }
-                  - { name: tile, label: "Màu ô phụ", widget: color }
-                  - { name: serif, label: "Dùng font có chân (serif)", widget: boolean, required: false }
+              - { name: image, label: "Ảnh dự án", widget: image, hint: "Ảnh chụp giao diện website, tỷ lệ 4:3 (ví dụ 1600×1200). Hiển thị ở mục Dự án và trang chủ." }
 
   - name: advanced
     label: "Nâng cao"

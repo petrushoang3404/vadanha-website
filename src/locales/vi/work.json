@@ -13,8 +13,6 @@
   },
   "projects": {
     "slow-hours": {
-      "headline": "Cà phê, theo nhịp của bạn.",
-      "cta": "Xem tất cả",
       "summary": "Cửa hàng trực tuyến ưu tiên đặt hàng định kỳ cho thương hiệu rang xay nhỏ, với quy trình đặt lại chỉ trong ba lần chạm.",
       "scope": [
         "Thiết kế",
@@ -23,8 +21,6 @@
       ]
     },
     "harlow-reed": {
-      "headline": "Tư vấn đọc kỹ từng điều khoản.",
-      "cta": "Đặt lịch tư vấn",
       "summary": "Website tạo uy tín cho một văn phòng luật nhỏ, với các trang lĩnh vực hành nghề được viết theo nhu cầu tìm kiếm của khách hàng.",
       "scope": [
         "Nhận diện cho web",
@@ -33,8 +29,6 @@
       ]
     },
     "atlas-freight": {
-      "headline": "Hàng đến đúng như đã hẹn.",
-      "cta": "Nhận báo giá",
       "summary": "Thiết kế lại website B2B cũ thành phễu yêu cầu báo giá, chuyển đổi cùng bản đồ chuyển hướng đầy đủ.",
       "scope": [
         "Kiểm kê nội dung",
@@ -43,8 +37,6 @@
       ]
     },
     "linden-dental": {
-      "headline": "Nha khoa không còn nỗi sợ.",
-      "cta": "Đặt lịch hẹn",
       "summary": "Website phòng khám nhẹ nhàng, dễ truy cập, nơi việc đặt lịch hẹn luôn chỉ cách một lần bấm.",
       "scope": [
         "Thiết kế",
@@ -53,8 +45,6 @@
       ]
     },
     "tallyo": {
-      "headline": "Chốt sổ chỉ trong một ngày.",
-      "cta": "Dùng thử miễn phí",
       "summary": "Website giới thiệu và tham quan sản phẩm cho ứng dụng tài chính B2B, với trang bảng giá giúp sàng lọc khách hàng tiềm năng.",
       "scope": [
         "Thông điệp",
@@ -63,8 +53,6 @@
       ]
     },
     "fieldhouse": {
-      "headline": "Đồ nghề cho hành trình dài.",
-      "cta": "Xem tất cả",
       "summary": "Danh mục 1.200 sản phẩm được sắp xếp lại theo cách khách hàng mua sắm, với bộ lọc thực sự thu hẹp kết quả.",
       "scope": [
         "Kiến trúc thông tin",

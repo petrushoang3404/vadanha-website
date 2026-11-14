@@ -18,23 +18,12 @@ export type Category = 'ecommerce' | 'corporate' | 'redesign' | 'saas'
 
 export const categories: ('all' | Category)[] = ['all', 'ecommerce', 'corporate', 'redesign', 'saas']
 
-export type Theme = {
-  bg: string
-  fg: string
-  accent: string
-  accentFg: string
-  tile: string
-  serif?: boolean
-}
-
 export type Project = {
   slug: string
   name: string
   category: Category
-  layout: 'split' | 'products' | 'centered' | 'dashboard' | 'editorial'
-  theme: Theme
-  /** Optional uploaded screenshot (path under public/). Falls back to the drawn mockup. */
-  image?: string
+  /** Screenshot uploaded from the CMS (path under public/). */
+  image: string
 }
 
 // Illustrative concept projects with fictional brands (edited from the CMS at /admin).
